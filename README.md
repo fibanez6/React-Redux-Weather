@@ -1,4 +1,4 @@
-# React Redux Weather
+# React Redux Weather Forecast
 
 [React tutorial](https://www.udemy.com/react-redux/) to display the weather forecast of a city.
 This project cover section 5 of the tutorial.
@@ -8,6 +8,15 @@ This project cover section 5 of the tutorial.
 This project was cloned from [StephenGrider/ReduxSimpleStarter](https://github.com/StephenGrider/ReduxSimpleStarter)
 
 
+### Content
+
+* [Google Map API](https://developers.google.com/maps/) 
+    - To display the map of the city
+* [Openweathermap API](https://openweathermap.org/forecast5)
+    - To retrieve 5-days weather forecast data
+* [React-sparklines](https://www.npmjs.com/package/react-sparklines)
+    - To display weather forecast data in a chart
+
 ### Installation
 
 ```
@@ -16,3 +25,6 @@ This project was cloned from [StephenGrider/ReduxSimpleStarter](https://github.c
 > npm install
 > npm start
 ```
+
+And set your OpenWeatherMap api key into the file [Ajax call Action](action/index.js)
+
