@@ -16,6 +16,7 @@ This project was cloned from [StephenGrider/ReduxSimpleStarter](https://github.c
     - To retrieve 5-days weather forecast data
 * [React-sparklines](https://www.npmjs.com/package/react-sparklines)
     - To display weather forecast data in a chart
+* Concept of middleware
 
 ### Installation
 
