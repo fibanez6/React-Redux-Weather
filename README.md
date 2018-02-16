@@ -26,5 +26,5 @@ This project was cloned from [StephenGrider/ReduxSimpleStarter](https://github.c
 > npm start
 ```
 
-And set your OpenWeatherMap api key into the file [Ajax call Action](action/index.js)
+And set your OpenWeatherMap api key into the file [Ajax call Action](src/actions/index.js#L3)
 
