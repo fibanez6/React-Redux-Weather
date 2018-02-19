@@ -16,6 +16,7 @@ This project was cloned from [StephenGrider/ReduxSimpleStarter](https://github.c
     - To retrieve 5-days weather forecast data
 * [React-sparklines](https://www.npmjs.com/package/react-sparklines)
     - To display weather forecast data in a chart
+* Concept of middleware
 
 ### Installation
 
@@ -26,5 +27,5 @@ This project was cloned from [StephenGrider/ReduxSimpleStarter](https://github.c
 > npm start
 ```
 
-And set your OpenWeatherMap api key into the file [Aj   ax call Action](action/index.js)
+And set your OpenWeatherMap API Key in the [Ajax call Action](src/actions/index.js#L3) file.
 
