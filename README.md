@@ -21,8 +21,8 @@ This project was cloned from [StephenGrider/ReduxSimpleStarter](https://github.c
 ### Installation
 
 ```
-> git clone https://github.com/fibanez6/React-Redux-Weather.git
-> cd React-Redux-Weather
+> git clone https://github.com/fibanez6/react-redux-weather.git
+> cd react-redux-weather
 > npm install
 > npm start
 ```
