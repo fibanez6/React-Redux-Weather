@@ -29,3 +29,29 @@ This project was cloned from [StephenGrider/ReduxSimpleStarter](https://github.c
 
 And set your OpenWeatherMap API Key in the [Ajax call Action](src/actions/index.js#L3) file.
 
+
+### Heroku installation
+
+Add the following lines into the package.json:
+```
+  ...
+  "engines": {
+    "node": "8.9.4"
+  },
+  "scripts": {
+    "dev": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js",
+    "test": "mocha --compilers js:babel-core/register --require ./test/test_helper.js --recursive ./test",
+    "test:watch": "npm run test -- --watch",
+    "postinstall": "webpack -p",
+    "start": "node server.js"
+  },
+  ....
+```
+Run the following commands:
+```
+> heroku login
+> heroku git:remote -a fibanez-cityweather
+To allow to use dev libraries (ie: webpack)
+> heroku config:set NPM_CONFIG_PRODUCTION=false
+> git push heroku master
+```
